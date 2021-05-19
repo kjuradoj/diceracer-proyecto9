@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <Button
+            android:id="@+id/btnThrowDice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="throwDice"
+            android:text="@string/btn_throw_dice" />
+
+    </TableLayout>
+
+</ScrollView>
